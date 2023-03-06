@@ -30,7 +30,7 @@ puts "🌱 Seeding spices..."
   movie = Movie.create(
     title: "Fatherhood",
     genre: "Comedy",
-    image_url: "_https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSCflPa5Q0WQXvtGk5f2quScHMiGKLQxn7nSqgrFU&s",
+    image_url: "https://images.hellomagazine.com/imagenes/film/20210623116048/fatherhood-heartbreaking-true-story-behind-netflix-film/0-561-668/fatherhood-film-z.jpg",
     rating: 8,
     year: 2020,
     user_id: 6
@@ -124,7 +124,7 @@ puts "🌱 Seeding spices..."
   movie = Movie.create(
     title: "Never Have I Ever",
     genre: "Comedy",
-    image_url: "https://flxt.tmsimg.com/assets/p18130842_b_v13_aa.jpg",
+    image_url: "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/xez1nhoqr9qvuzzl_1623842930.jpeg",
     rating: 6,
     year: 2020,
     user_id: 7
@@ -148,7 +148,7 @@ puts "🌱 Seeding spices..."
   movie = Movie.create(
     title: "All American",
     genre: "Drama",
-    image_url: "https://d.newsweek.com/en/full/1572708/all-american-season-3.jpg?w=1600&h=1200&q=88&f=04e4fe0ebf8c5cb35ffb572ea1762d83",
+    image_url: "https://i.pinimg.com/736x/c8/f4/29/c8f4290d3c814629b1a96488bb883405.jpgy",
     rating: 7,
     year: 2020,
     user_id: 2
@@ -158,6 +158,33 @@ puts "🌱 Seeding spices..."
     title: "IT",
     genre: "Horror",
     image_url: "https://cosmicbook.news/wp-content/uploads/2017/08/pennywise-it-images.jpg",
+    rating: 10,
+    year: 2017,
+    user_id: 1
+  )
+
+  movie = Movie.create(
+    title: "John Wick",
+    genre: "Action",
+    image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCM61ZWctjjHPd-KDUnZSD1aNiW2gLejHiaw&usqp=CAU",
+    rating: 10,
+    year: 2019,
+    user_id: 1
+  )
+
+  movie = Movie.create(
+    title: "Spider Man",
+    genre: "Anime",
+    image_url: "https://cdn.marvel.com/content/1x/marvsmposterbk_intdesign.jpg",
+    rating: 10,
+    year: 2017,
+    user_id: 1
+  )
+ 
+  movie = Movie.create(
+    title: "Seth.j",
+    genre: "Love",
+    image_url: "blob:https://web.whatsapp.com/771c25fb-f8f8-44a7-bd41-f15520450851",
     rating: 10,
     year: 2017,
     user_id: 1
